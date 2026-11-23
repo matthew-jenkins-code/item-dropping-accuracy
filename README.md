@@ -1,7 +1,7 @@
 # Item Dropping Accuracy
 
 A RuneLite plugin that tracks click accuracy and speed while you drop or open a full inventory
-(for example fish while barbarian fishing, or Empty bucket packs), and guides you with a click-pattern overlay.
+(for example fish while barbarian fishing, or feather packs), and guides you with a click-pattern overlay.
 
 - **Pattern overlay:** the next item pulses, the following ones are numbered, and skipped or failed items turn red and are queued at the end.
 - **Patterns:** row by row, column by column, snake rows/columns, DU/UD Snake Rows (right or left pair of columns first, down then up or up then down), or a custom slot list.
@@ -10,5 +10,3 @@ A RuneLite plugin that tracks click accuracy and speed while you drop or open a 
 - **Settings:** items per run, only/excluded items (names, `*` wildcard, or ids), exclude noted items, click actions.
 
 The plugin never clicks or sends input for you; it only observes your clicks and draws overlays.
-
-Run a development client with `./gradlew run`.
